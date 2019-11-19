@@ -1,0 +1,14 @@
+version: '2'
+services:
+  jhipster-registry:
+    extends:
+      file: jhipster-registry.yml
+      service: jhipster-registry
+    environment:
+      - SPRING_CLOUD_CONFIG_SERVER_COMPOSITE_0_TYPE=native
+    depends_on:
+      - keycloak
+  keycloak:
+    extends:
+      file: keycloak.yml
+      service: keycloak
