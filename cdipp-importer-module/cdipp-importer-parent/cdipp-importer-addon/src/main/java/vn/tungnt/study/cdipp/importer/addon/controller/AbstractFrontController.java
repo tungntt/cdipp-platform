@@ -12,8 +12,6 @@ abstract class AbstractFrontController <T, R, P> {
         return this.postBackStatus();
     }
 
-    public abstract T receivedCustomerData(R requestData);
-
     protected abstract P transform(R requestData);
 
     protected abstract void pushToQueue(P processingData);

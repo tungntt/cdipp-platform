@@ -6,7 +6,8 @@ import org.springframework.web.bind.annotation.PostMapping;
  * @author nttung 1/4/20
  * @project cdipp-importer-parent
  */
-public abstract class AbstractFrontRestController<T, R, P> extends AbstractFrontController<T, R, P> {
+public abstract class AbstractFrontRestController<T, R, P> extends AbstractFrontController<T, R, P>
+        implements FrontController<T, R> {
 
     @PostMapping("/receive")
     @Override
