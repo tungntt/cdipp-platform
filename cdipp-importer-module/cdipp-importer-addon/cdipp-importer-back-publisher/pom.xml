@@ -12,4 +12,10 @@
     <artifactId>cdipp-importer-back-publisher</artifactId>
     <version>0.0.1-SNAPSHOT</version>
 
+    <dependencies>
+        <dependency>
+            <groupId>vn.tungnt.study.cdipp.importer</groupId>
+            <artifactId>cdipp-importer-common</artifactId>
+        </dependency>
+    </dependencies>
 </project>

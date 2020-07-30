@@ -1,9 +1,8 @@
 package vn.tungnt.study.cdipp.importer.service;
 
 /**
- * @author nttung 4/7/20
+ * @author nttung 4/6/20
  * @project cdipp-importer-module
  */
-public class CdippPublisherService {
+public interface CdippBackPublisherService {
 }
-
