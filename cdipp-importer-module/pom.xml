@@ -16,6 +16,7 @@
     <packaging>pom</packaging>
 
     <modules>
+        <module>cdipp-importer-parent</module>
         <module>cdipp-importer-common</module>
         <module>cdipp-importer-addon</module>
     </modules>

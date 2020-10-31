@@ -3,7 +3,7 @@ package vn.tungnt.study.cdipp.importer.controller.impl;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import vn.tungnt.study.cdipp.importer.controller.AbstractFrontRestController;
-import vn.tungnt.study.cdipp.importer.controller.CdippRestController;
+import vn.tungnt.study.cdipp.importer.controller.annotation.CdippRestController;
 import vn.tungnt.study.cdipp.importer.model.DefaultCdippProcessingModel;
 import vn.tungnt.study.cdipp.importer.model.rest.DefaultCdippRequestRestModel;
 import vn.tungnt.study.cdipp.importer.model.rest.DefaultCdippResponseRestModel;
