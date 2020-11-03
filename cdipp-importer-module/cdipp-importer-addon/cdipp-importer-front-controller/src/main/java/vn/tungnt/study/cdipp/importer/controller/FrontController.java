@@ -8,8 +8,8 @@ import vn.tungnt.study.cdipp.importer.controller.annotation.CdippRestController;
  * @project cdipp-importer-parent
  */
 @CdippRestController
-public interface FrontController<T, R> {
+public interface FrontController<INPUT, OUTPUT> {
 
-    @PostMapping("/received")
-    T receivedCustomerData(R requestData);
+    @PostMapping("/process")
+    OUTPUT processCustomerData(INPUT requestData);
 }

@@ -30,6 +30,11 @@
             <artifactId>cdipp-importer-shared-model</artifactId>
             <scope>compile</scope>
         </dependency>
+
+        <dependency>
+            <groupId>vn.tungnt.study.cdipp.importer</groupId>
+            <artifactId>cdipp-importer-fsm</artifactId>
+        </dependency>
     </dependencies>
 
 </project>

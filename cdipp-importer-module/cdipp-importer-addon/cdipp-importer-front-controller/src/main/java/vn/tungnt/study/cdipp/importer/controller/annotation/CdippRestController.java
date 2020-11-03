@@ -15,10 +15,10 @@ import java.lang.annotation.*;
 @Retention(RetentionPolicy.RUNTIME)
 @Documented
 @RestController
-@RequestMapping(value = "/api/cdipp/customer")
+@RequestMapping(value = "/api/sps/customer")
 public @interface CdippRestController {
     @AliasFor(
             annotation = Controller.class
     )
-    String value() default "";
+    String value() default "/api/sps/customer";
 }
